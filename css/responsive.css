@@ -1,0 +1,225 @@
+/* 240px */
+@media screen and (max-width:240px){
+  #logo img {
+    width: 180px;
+  }
+  #main {
+    max-width: 210px;
+  }
+  h1 {
+    font: normal 22px/28px Montserrat, sans-serif;
+  }
+}
+
+/* 295px */
+@media screen and (min-width:241px) and (max-width:295px){
+  #main {
+    max-width: 265px;
+  }
+  h1 {
+    font: normal 22px/28px Montserrat, sans-serif;
+  }
+}
+
+/* 320px */
+@media screen and (min-width:296px) and (max-width:320px){
+  #main {
+    max-width: 290px;
+  }
+}
+
+/* 570px and below */
+@media screen and (min-width:0) and (max-width:569px){
+  body {
+    padding: 0;
+    font-size: 14px;
+  }
+  header {
+    padding-top: 50px;
+  }
+  #container {
+    padding-right: 0;
+    width: 100%;
+  }
+  #main {
+    width: auto;
+    padding: 15px 15px 50px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+  }
+  #logo {
+    margin-bottom: 10px;
+    float: none;
+    text-align: center;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    float: none;
+    clear: both;
+    font: normal 14px Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    background: #222;
+    z-index: 9999;
+  }
+  nav ul {
+    margin: 0 auto;
+    float: none;
+    overflow: hidden;
+  }
+  nav li {
+    margin: 0;
+    width: 33%;
+    text-align: center;
+    border-right: 1px solid #555;
+  }
+  nav li:last-child {
+    border-right: 0;
+  }
+  nav a {
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    background: #222;
+    color: #fff;
+  }
+  #search {
+    display: none;
+  }
+  h1 {
+    margin-bottom: 15px;
+    font: normal 24px/30px Montserrat, sans-serif;
+    letter-spacing: -1px;
+  }
+  .date {
+    display: none;
+  }
+  blockquote {
+    margin: 1em 20px;
+  }
+  .comments {
+    margin-top: 25px;
+    font-size: 13px;
+    text-align: center;
+    background-position: 39px 13px;
+    background-size: 20px 18px;
+  }
+  .comment-count {
+    margin: 0 20px 0 0;
+  }
+  .tags {
+    display: none;
+  }
+  div {
+    transition: width 0;
+    -moz-transition: width 0;
+    -webkit-transition: width 0;
+    -o-transition: width 0;
+  }
+}
+
+/* 640px */
+@media screen and (min-width:570px) and (max-width:700px){
+  body {
+    font-size: 14px;
+  }
+  header {
+    padding-top: 50px;
+  }
+  #container {
+    padding-right: 0;
+    width: 540px;
+  }
+  #main {
+    width: 474px;
+    padding: 25px 32px 35px;
+    border-left-width: 1px;
+  }
+  #logo img {
+    margin-top: 1px;
+    width: 200px;
+  }
+  nav {
+    margin: 0 0 15px 5px;
+  }
+  nav li {
+    margin-left: 30px;
+  }
+  #search {
+    display: none;
+  }
+  h1 {
+    margin-bottom: 15px;
+    font: normal 32px/38px Montserrat, sans-serif;
+  }
+  blockquote {
+    margin: 1em 20px;
+  }
+  .date {
+    display: none;
+  }
+  .comments {
+    margin-top: 25px;
+    font-size: 13px;
+    text-align: center;
+    background-position: 39px 13px;
+    background-size: 20px 18px;
+  }
+  .comment-count {
+    margin: 0 20px 0 0;
+  }
+  .tags {
+    display: none;
+  }
+}
+
+/* 900px */
+@media screen and (min-width:701px) and (max-width:900px){
+  #container {
+    padding-right: 0;
+    width: 650px;
+  }
+  #main {
+    padding-top: 30px;
+    width: 570px;
+  }
+  nav {
+    margin-bottom: 20px;
+  }
+  nav li {
+    margin-left: 30px;
+  }
+  #search input[type="text"] {
+    width: 150px;
+  }
+  .date {
+    display: none;
+  }
+  blockquote {
+    margin: 1em 30px;
+  }
+}
+
+/* 1030px */
+@media screen and (min-width:901px) and (max-width:1100px){
+  #container {
+    padding-right: 30px;
+    width: 800px;
+  }
+  #main {
+    width: 580px;
+  }
+  nav {
+    margin-right: -120px; /* transition fix */
+  }
+  blockquote {
+    margin: 1em 30px;
+  }
+}
+
+/* 1130px */
+@media screen and (max-width:1130px){
+}

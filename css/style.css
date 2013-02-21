@@ -1,0 +1,227 @@
+body {
+  padding: 0 20px 90px;
+  font: normal 15px/23px Helvetica, Arial, sans-serif;
+  color: #333;
+  background: #f9f9f9 url(../images/template/bg.png);
+  border-top: 5px solid #222;
+}
+.js {
+  display: none;
+}
+#container {
+  margin: 0 auto;
+  padding-right: 60px;
+  width: 940px;
+  overflow: hidden;
+}
+#main {
+  padding: 38px 38px 50px 38px;
+  width: 650px;
+  float: right;
+  clear: both;
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-left: 3px solid #d1d1d1;
+  border-bottom: 3px solid #d1d1d1;
+}
+div {
+  transition: width 0.5s;
+    -moz-transition: width 0.5s, margin 0.5s;
+    -webkit-transition: width 0.5s, margin 0.5s;
+    -o-transition: width 0.5s, margin 0.5s;
+}
+
+/* Type Elements */
+h1 {
+  margin: 0 0 20px 0;
+  font: normal 40px/47px 'Montserrat', sans-serif;
+  color: #222;
+  letter-spacing: -2px;
+}
+h2 {
+  margin: 0;
+  font: normal 28px/36px Arial, sans-serif;
+  color: #666;
+}
+h3 {
+  font: bold 19px/25px Arial, sans-serif;
+}
+h4 {
+  font: bold 16px/22px Arial, sans-serif;
+}
+h5 {
+  font: bold 14px/19px Arial, sans-serif;
+}
+h6 {
+  font: bold 12px/17px Arial, sans-serif;
+}
+h3.label {
+  padding-bottom: 4px;
+  border-bottom: 1px dashed #ccc;
+}
+ul {
+  list-style: square;
+}
+label {
+  margin: 4px 0;
+  display: block;
+}
+.date {
+  margin: -4px 0 0 -130px;
+  width: 56px;
+  height: 56px;
+  float: left;
+  font: italic normal 11px Montserrat, sans-serif;
+  color: #acacac;
+  background-color: #222;
+}
+.borderradius .date {
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+}
+.no-borderradius .date, .no-js .date {
+  background: url(../images/template/datemarker-bg.png) no-repeat;
+}
+.month {
+  margin: 9px 0 -2px 17px;
+  display: block;
+}
+.day {
+  margin-left: 14px;
+  display: block;
+  font-size: 21px;
+  color: #fff;
+}
+a {
+  color: #1982D1;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+blockquote {
+  padding: 15px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font: italic normal 18px/26px Montserrat, sans-serif;
+}
+
+/* Form Elements */
+input[type="text"],
+textarea {
+  padding: 4px;
+  width: 350px;
+  border: 1px solid #ccc;
+}
+textarea {
+  max-width: 350px;
+  height: 250px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 6px 10px;
+  display: block;
+  font: normal 14px Montserrat, serif;
+  color: #fff;
+  background: #444;
+  border: 0;
+}
+input[type="submit"]:hover {
+  background: #333;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  padding-top: 80px;
+}
+#logo {
+  float: left;
+}
+#search {
+  margin-top: -12px;
+  float: right;
+}
+#search input[type="text"] {
+  padding: 0 2px;
+  width: 260px;
+  font: normal 16px Montserrat, sans-serif;
+  color: #444;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+#search input[type="text"]:hover,
+#search input[type="text"]:focus {
+  border-bottom: 1px solid #bfbfbf;
+}
+#search input:focus {
+  outline: none;
+}
+#search input[type="submit"] {
+  position: relative;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  background: url(../images/icons/search.png) no-repeat;
+  border: 0;
+  text-indent: -999px;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 30px;
+  height: 26px;
+  float: left;
+  font: normal 16px Montserrat, sans-serif;
+  letter-spacing: -1px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+nav li {
+  margin: 5px 0 0 40px;
+  float: left;
+}
+nav a {
+  color: #222;
+}
+nav a.active {
+  padding: 2px 12px;
+  background: yellow;
+}
+
+/* Blog Comments & Tags */
+.comments {
+  margin-top: 40px;
+  padding: 12px 0;
+  font: normal 15px Montserrat, serif;
+  background: url(../images/icons/comments.png) 0 13px no-repeat;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+.comments a {
+  padding: 6px 0;
+  color: #444;
+}
+.comment-count {
+  margin: 0 30px;
+}
+.tags {
+  float: right;
+}
+.tags a {
+  margin-left: 4px;
+  padding: 4px 6px;
+  font-size: 13px;
+  color: #fff;
+  background: #444;
+}
+.tags a:hover {
+  background: #333;
+  text-decoration: none;
+}
