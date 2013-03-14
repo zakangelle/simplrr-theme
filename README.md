@@ -7,4 +7,4 @@ A simple, beautiful responsive theme for blog posts.
 1. Download the theme package and start editing!
 
 ### Demo
-[Simplrr Theme](https://dl.dropbox.com/u/21334841/simplrr/index.html)
+[Simplrr Theme](http://nhx.io/demos/simplrr-theme)
