@@ -1,10 +1,13 @@
 # Simplrr Theme
 
-### Summary
 A simple, beautiful responsive theme for blog posts.
 
-### How to Use
-1. Download the theme package and start editing!
+[![See Demo](https://img.shields.io/badge/see-demo-cf2995.svg)](https://dl.dropboxusercontent.com/u/21334841/demos/simplrr-theme/index.html)
 
-### Demo
-[Simplrr Theme](http://nhx.io/demos/simplrr-theme)
+### Installation
+
+Clone the repository:
+
+```
+$ git clone https://github.com/zakangelle/simplrr-theme
+```
